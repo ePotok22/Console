@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>FFF</Authors>
+    <Company></Company>
+    <Product>Console</Product>
+    <Copyright>Copyright © 2022</Copyright>
+    <Version>1.0.0</Version>
+    <Description>Represents the standard input, output, and error streams for console applications. This class cannot be inherited.</Description>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
